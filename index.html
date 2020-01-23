@@ -8,6 +8,7 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/animate.css">
 </head>
 
@@ -50,7 +51,7 @@
         <section class="features section">
             <div class="container">
                 <h2 class="section-title wow fadeInLeft" data-wow-duration="1s">Со мной удобно работать</h2>
-                <div class="features-block wow pulse" data-wow-duration="1s" data-wow-delay="1s"">
+                <div class="features-block wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s">
                     <div class="features-item">
                         <img src="img/features/offer-img.svg" alt="По договору" class="features-image">
                         <h3 class="features-title">По договору</h3>
@@ -86,53 +87,190 @@
             </div>
         </section>
         <!-- /.features -->
-
+        
         <section class="section projects">
             <div class="container">
-                <h2 class="section-title">Последние проекты</h2>
-                <div class="project-slider">
-                    <div class="project-slide">
-                        <img src="img/project-img.png" alt="Сайт строительной фирмы “Велстрой”" class="project-image">
-                        <div class="project-text">
-                            <h3 class="project-title">Сайт строительной фирмы “Велстрой”</h3>
-                            <div class="project-time">
-                                <img src="img/time-icon.svg" alt="Срок" class="project-icon">
-                                <div class="project-description">
-                                    <h4 class="project-subtitle">Срок</h4>
-                                    <p class="project-paragraph">4 рабочих дня</p>
+                <h2 class="section-title wow fadeInLeft" data-wow-duration="1s">Последние проекты</h2>
+
+                <!-- Slider main container -->
+                <div class="swiper-container project-slider wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide project-slide">
+                            <img src="img/projects/project-img.png" alt="Сайт строительной фирмы “Велстрой”" class="project-image">
+                            <div class="project-text">
+                                <h3 class="project-title">Сайт строительной фирмы “Велстрой”</h3>
+                                <div class="project-time">
+                                    <img src="img/time-icon.svg" alt="Срок" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Срок</h4>
+                                        <p class="project-paragraph">4 рабочих дня</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <!-- /.project-time -->
-                            <div class="project-cost">
-                                <img src="img/cost-icon.svg" alt="Цена" class="project-icon">
-                                <div class="project-description">
-                                    <h4 class="project-subtitle">Цена</h4>
-                                    <p class="project-paragraph">14 000 рублей</p>
+                                <!-- /.project-time -->
+                                <div class="project-cost">
+                                    <img src="img/cost-icon.svg" alt="Цена" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Цена</h4>
+                                        <p class="project-paragraph">14 000 рублей</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <!-- /.project-cost -->
-                            <div class="project-feedback">
-                                <img src="img/feedback-icon.svg" alt="Отзыв клиента" class="project-icon">
-                                <div class="project-description">
-                                    <h4 class="project-subtitle">Отзыв клиента</h4>
-                                    <p class="project-paragraph">Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке</p>
+                                <!-- /.project-cost -->
+                                <div class="project-feedback">
+                                    <img src="img/feedback-icon.svg" alt="Отзыв клиента" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Отзыв клиента</h4>
+                                        <p class="project-paragraph">Мне понравилось работать с Денисом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке</p>
+                                    </div>
                                 </div>
+                                <!-- /.project-feedback -->
                             </div>
-                            <!-- /.project-feedback -->
+                            <!-- /.project-text -->
                         </div>
-                        <!-- /.project-text -->
+                        <!-- slide end -->
+                        <div class="swiper-slide project-slide">
+                            <img src="img/projects/4.png" alt="Сайт строительной фирмы “Велстрой”" class="project-image">
+                            <div class="project-text">
+                                <h3 class="project-title">Сайт строительной фирмы “Хорошострой”</h3>
+                                <div class="project-time">
+                                    <img src="img/time-icon.svg" alt="Срок" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Срок</h4>
+                                        <p class="project-paragraph">2 рабочих дня</p>
+                                    </div>
+                                </div>
+                                <!-- /.project-time -->
+                                <div class="project-cost">
+                                    <img src="img/cost-icon.svg" alt="Цена" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Цена</h4>
+                                        <p class="project-paragraph">20 000 рублей</p>
+                                    </div>
+                                </div>
+                                <!-- /.project-cost -->
+                                <div class="project-feedback">
+                                    <img src="img/feedback-icon.svg" alt="Отзыв клиента" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Отзыв клиента</h4>
+                                        <p class="project-paragraph">Только что вышел с этого сайта. Должен признаться, сделать это удалось с огромным трудом. И каждый раз все труднее. Фрилансер очень хорошо постарался. Когда меня начинает мучить тревожность, я просто открываю сайт Дениса, и залипаю. Это сродни медитации. Обязательно обращусь еще.</p>
+                                    </div>
+                                </div>
+                                <!-- /.project-feedback -->
+                            </div>
+                            <!-- /.project-text -->
+                        </div>
+                        <!-- slide end -->
+                        <div class="swiper-slide project-slide">
+                            <img src="img/projects/1.jpg" alt="Сайт строительной фирмы “Велстрой”" class="project-image">
+                            <div class="project-text">
+                                <h3 class="project-title">Сайт фрилансерских услуг “NoOffice”</h3>
+                                <div class="project-time">
+                                    <img src="img/time-icon.svg" alt="Срок" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Срок</h4>
+                                        <p class="project-paragraph">5 рабочих дней</p>
+                                    </div>
+                                </div>
+                                <!-- /.project-time -->
+                                <div class="project-cost">
+                                    <img src="img/cost-icon.svg" alt="Цена" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Цена</h4>
+                                        <p class="project-paragraph">25 000 рублей</p>
+                                    </div>
+                                </div>
+                                <!-- /.project-cost -->
+                                <div class="project-feedback">
+                                    <img src="img/feedback-icon.svg" alt="Отзыв клиента" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Отзыв клиента</h4>
+                                        <p class="project-paragraph">Очень крута, поста потрясна, буду еще обращаться к этому прекрасному фрилансеру!</p>
+                                    </div>
+                                </div>
+                                <!-- /.project-feedback -->
+                            </div>
+                            <!-- /.project-text -->
+                        </div>
+                        <!-- slide end -->
+                        <div class="swiper-slide project-slide">
+                            <img src="img/projects/2.jpg" alt="Сайт строительной фирмы “Велстрой”" class="project-image">
+                            <div class="project-text">
+                                <h3 class="project-title">Сайт фирмы "Hello World"</h3>
+                                <div class="project-time">
+                                    <img src="img/time-icon.svg" alt="Срок" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Срок</h4>
+                                        <p class="project-paragraph">1 минута</p>
+                                    </div>
+                                </div>
+                                <!-- /.project-time -->
+                                <div class="project-cost">
+                                    <img src="img/cost-icon.svg" alt="Цена" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Цена</h4>
+                                        <p class="project-paragraph">100 000 рублей</p>
+                                    </div>
+                                </div>
+                                <!-- /.project-cost -->
+                                <div class="project-feedback">
+                                    <img src="img/feedback-icon.svg" alt="Отзыв клиента" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Отзыв клиента</h4>
+                                        <p class="project-paragraph">Уже очень давно, лет пятнадцать, наверное, я поклонник этого фрилансера. Часто делаю заказы. Сайты этого фрилансера обожаем всей семьей, без них уже и не прожить. И ничуть не стали хуже, все на уровне, на очень высоком уровне. Один их лучших фрилансеров.</p>
+                                    </div>
+                                </div>
+                                <!-- /.project-feedback -->
+                            </div>
+                            <!-- /.project-text -->
+                        </div>
+                        <!-- slide end -->
+                        <div class="swiper-slide project-slide">
+                            <img src="img/projects/3.jpg" alt="Сайт строительной фирмы “Велстрой”" class="project-image">
+                            <div class="project-text">
+                                <h3 class="project-title">Сайт города “Нур-Султан”</h3>
+                                <div class="project-time">
+                                    <img src="img/time-icon.svg" alt="Срок" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Срок</h4>
+                                        <p class="project-paragraph">23 рабочих дня</p>
+                                    </div>
+                                </div>
+                                <!-- /.project-time -->
+                                <div class="project-cost">
+                                    <img src="img/cost-icon.svg" alt="Цена" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Цена</h4>
+                                        <p class="project-paragraph">1 000 000 тенге</p>
+                                    </div>
+                                </div>
+                                <!-- /.project-cost -->
+                                <div class="project-feedback">
+                                    <img src="img/feedback-icon.svg" alt="Отзыв клиента" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Отзыв клиента</h4>
+                                        <p class="project-paragraph">Оте жаксы. Эдемi, керемет сайты. Улкен рахмет!</p>
+                                    </div>
+                                </div>
+                                <!-- /.project-feedback -->
+                            </div>
+                            <!-- /.project-text -->
+                        </div>
+                        <!-- slide end -->
                     </div>
-                    <!-- /.project-slide -->
+                    <!-- If we need pagination -->
+                    <div class="projects-pagination"></div>
                 </div>
-                <!-- /.project-slider -->
+
             </div>
+            <!-- container -->
         </section>
     </main>
 
     <footer class="section">
         <div class="container">
             <h2 class="section-title wow fadeInLeft" data-wow-duration="1s">Свяжитесь со мной</h2>
-            <div class="contacts-block wow pulse" data-wow-duration="1s" data-wow-delay="1s">
+            <div class="contacts-block wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s">
                 <form action="#" class="contacts-form">
                     <h4 class="form-title">Можете просто оставить заявку, я позвоню вам сегодня</h4>
                     <input type="text" class="input input-name" placeholder="Ваше имя">
@@ -176,6 +314,7 @@
         </div>
     </footer>
 <script src="js/wow.min.js"></script>
+<script src="js/swiper.min.js"></script>
 <script src="js/main.js"></script>
 
 </body>
