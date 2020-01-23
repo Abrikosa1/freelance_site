@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif; 
+    background-color: #20202D;
+    margin: 0;
+    color: #fff;
+}
+
+.container{
+    max-width: 945px;
+    margin: auto;
+}
+
+.section{
+    padding-top: 64px;
+    padding-bottom: 92px;
+}
+
+.section-title{
+    margin: 0;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 84px;
+}
+
+.hero{
+    padding-top: 50px;
+    padding-bottom: 155px;
+    background: linear-gradient(0deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+}
+.hero-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 105px;
+}
+
+.social-link{
+    margin-left: 20px;
+}
+.social-link:first-child{
+    margin-left: 0;
+}
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-subtitle{
+    display: block;
+    color: #FFBB01;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 14px; 
+}
+
+.hero-title{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.hero-discription{
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 420px;
+    margin-bottom: 38px;
+}
+
+.button{
+    background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+    box-shadow: 0px 4px 0px #B68500;
+    border: none;
+    border-radius: 5px 5px 10px 10px;
+    padding: 24px 42px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+.hero-avatar{
+    width: 389px;
+    height: 389px;
+    background-color: #fff;
+    border-radius: 50%;
+    background-image: url("../img/ava.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 78%;
+    border: 13px solid #fff;
+}
+
+
+/*features*/
+.features{
+    background-color: #000000;
+}
+
+.features-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.features-item{
+    flex-basis: 30%;
+    margin-bottom: 63px;
+}
+
+.features-image{
+    display: block;
+    margin-bottom: 22px;
+}
+
+.features-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.features-text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+}
+
+/*contacts*/
+.contacts-form{
+    background: #FFFFFF;
+    box-shadow: -5px 5px 0px #FFC41D;
+    border-radius: 5px;
+    max-width: 380px;
+    padding: 40px 48px 49px 48px;
+}
+
+.form-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 29px;
+}
+
+.input{
+    background: #F8F8F8;
+    box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+    border-radius: 5px;
+    padding: 18px 20px;
+    width: 100%;
+    border: none;
+    padding-left: 50px;
+}
+
+.input-name{
+    margin-bottom: 17px;
+    background-image: url("../img/user-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center left 20px;
+}
+
+.input-phone{
+    margin-bottom: 26px;
+    background-image: url("../img/phone-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center left 20px;
+}
+
+.form-button{
+    width: 100%;
+}
+
+.contacts-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts-text{
+    flex-basis: 50%;
+}
+
+.contacts-data{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 42px;
+}
+
+.contacts-phone, .contacts-mail{
+    flex-basis: 50%;
+    margin-bottom: 53px;
+}
+
+.contacts-social{
+    flex-basis: 100%;
+}
+
+.contacts-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.contacts-link{
+    text-decoration: none;
+    color: inherit;
+    margin-right: 37px;
+}
+
+.contacts-link:hover{
+    text-decoration: underline;
+}
+
+.contacts-policy{
+    display: inline-block;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #A5A5A5;
+    margin-top: 72px;
+}
