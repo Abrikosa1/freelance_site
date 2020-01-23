@@ -40,7 +40,7 @@ body{
 }
 
 .social-link{
-    margin-left: 20px;
+    margin-left: 16px;
 }
 .social-link:first-child{
     margin-left: 0;
@@ -84,6 +84,7 @@ body{
     font-size: 12px;
     line-height: 14px;
     text-transform: uppercase;
+    display: inline-block;
 }
 
 .hero-avatar{
@@ -133,6 +134,11 @@ body{
     font-size: 16px;
     line-height: 28px;
     margin: 0;
+}
+
+/*projects*/
+.projects{
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
 }
 
 /*contacts*/
