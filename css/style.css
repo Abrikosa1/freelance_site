@@ -327,8 +327,9 @@ body{
         border-width: 10px;
     }
     .project-text {
-        flex-basis: 55%;
+        flex-basis: 54%;
     }
+
 }
 
 @media (max-width: 836px){
